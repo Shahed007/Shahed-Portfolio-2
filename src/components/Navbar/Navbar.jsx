@@ -5,7 +5,7 @@ import {
   Typography,
   IconButton,
 } from "@material-tailwind/react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function NavList() {
   return (
@@ -56,12 +56,11 @@ const MainNav = () => {
     <Navbar className="mx-auto max-w-7xl  bg-[#252734] backdrop-saturate-0 backdrop-blur-0 border-0    px-6 py-3 bg-opacity-0">
       <div className="flex items-center justify-between ">
         <Typography
-          as="a"
           href="#"
           variant="h6"
           className="mr-4 cursor-pointer py-1.5"
         >
-          MD SHAHED
+          <Link to="/">MD SHAHED</Link>
         </Typography>
         <div className="hidden lg:block text-white">
           <NavList />

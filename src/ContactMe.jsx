@@ -34,7 +34,7 @@ const ContactMe = () => {
                 <p className="text-lg text-white">
                   <span className="font-bold">Linkden:</span>{" "}
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/md-shahed"
                     className="hover:text-[#6DB9EF] border-b border-b-[#6DB9EF]"
                   >
                     MD Shahed
@@ -47,7 +47,7 @@ const ContactMe = () => {
                 <p className="text-lg text-white">
                   <span className="font-bold">GitHub:</span>{" "}
                   <a
-                    href="#"
+                    href="https://github.com/Shahed007"
                     className="hover:text-[#6DB9EF] border-b border-b-[#6DB9EF]"
                   >
                     Shahed007

@@ -18,10 +18,9 @@ const Hero = () => {
             </h1>
             <h2 className="text-4xl mt-4 text-white">Mern Stack Developer</h2>
             <p className="mt-6 text-white">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-              temporibus laborum nobis dicta perferendis sunt amet placeat
-              soluta. Accusamus, nemo placeat! Voluptatem est aspernatur facilis
-              soluta. Expedita quibusdam aliquam in.
+              Proficient in MongoDB, Express, React, and Node.js, creating
+              dynamic and scalable web applications for optimal user
+              experiences.
             </p>
             <div className="mt-8 flex gap-6 items-center">
               <a href={resume} download>

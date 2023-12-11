@@ -18,7 +18,9 @@ const Footer = () => {
                 color="white"
                 className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500 text-3xl"
               >
-                <FaFacebook />
+                <a href="https://www.linkedin.com/in/md-shahed">
+                  <FaLinkedin />
+                </a>
               </Typography>
             </li>
             <li>
@@ -28,17 +30,9 @@ const Footer = () => {
                 color="white"
                 className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500 text-3xl"
               >
-                <FaLinkedin />
-              </Typography>
-            </li>
-            <li>
-              <Typography
-                as="a"
-                href="#"
-                color="white"
-                className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500 text-3xl"
-              >
-                <FaGithub />
+                <a href="https://github.com/Shahed007">
+                  <FaGithub />
+                </a>
               </Typography>
             </li>
           </ul>
