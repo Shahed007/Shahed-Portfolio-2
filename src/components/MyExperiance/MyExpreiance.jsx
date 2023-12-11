@@ -7,7 +7,7 @@ const MyExpreiance = () => {
     <section className="my-20">
       <Container>
         <Title>My Experience</Title>
-        <div className="mt-12 flex gap-6 items-center">
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <Card className="mt-6  bg-[#252734] text-white">
             <CardBody>
               <Typography variant="h5" className="mb-2">

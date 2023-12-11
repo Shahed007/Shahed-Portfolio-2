@@ -2,6 +2,8 @@ import Container from "../Container";
 import shahed from "../../assets/shahed.webp";
 import { Button } from "@material-tailwind/react";
 import { GoDownload } from "react-icons/go";
+import resume from "../../assets/pdf/resume-of-Mern-Stack-Developer-MD-Shahed.pdf";
+import cv from "../../assets/pdf/cv-of-Full-Stack-Developer-MD-Shahed.pdf";
 
 const Hero = () => {
   return (
@@ -22,15 +24,19 @@ const Hero = () => {
               soluta. Expedita quibusdam aliquam in.
             </p>
             <div className="mt-8 flex gap-6 items-center">
-              <Button className="flex items-center gap-4" size="lg">
-                Resume <GoDownload className="text-lg" />
-              </Button>
-              <Button
-                className="flex items-center gap-4 text-black bg-[#6DB9EF]"
-                size="lg"
-              >
-                CV <GoDownload className="text-lg" />
-              </Button>
+              <a href={resume} download>
+                <Button className="flex items-center gap-4" size="lg">
+                  Resume <GoDownload className="text-lg" />
+                </Button>
+              </a>
+              <a href={cv} download>
+                <Button
+                  className="flex items-center gap-4 text-black bg-[#6DB9EF]"
+                  size="lg"
+                >
+                  CV <GoDownload className="text-lg" />
+                </Button>
+              </a>
             </div>
           </div>
           <div className="flex-1 self-end">
