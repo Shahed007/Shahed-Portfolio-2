@@ -1,4 +1,5 @@
 import Hero from "./components/Banner/Hero";
+import MyExpreiance from "./components/MyExperiance/MyExpreiance";
 import MySkills from "./components/MySkills/MySkills";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
     <div>
       <Hero></Hero>
       <MySkills></MySkills>
+      <MyExpreiance></MyExpreiance>
     </div>
   );
 };

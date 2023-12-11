@@ -4,7 +4,7 @@ import Title from "../Title/Title";
 
 const MySkills = () => {
   return (
-    <section className="my-20 w-full">
+    <section className="mt-20 w-full">
       <Container>
         <Title>My Skills</Title>
         <div className="mt-12 flex md:flex-row flex-col gap-6">
@@ -154,6 +154,7 @@ const MySkills = () => {
                 <li>Netlify</li>
                 <li>Vercel</li>
                 <li>Firebase</li>
+                <li>Visual Studio Code</li>
               </ul>
             </div>
           </div>
