@@ -55,6 +55,19 @@ const ContactMe = () => {
                 </p>
               </CardBody>
             </Card>
+            <Card className="mt-6  bg-[#2A2C39] text-white">
+              <CardBody>
+                <p className="text-lg text-white">
+                  <span className="font-bold">Call & WhatApp</span>{" "}
+                  <a
+                    href="https://github.com/Shahed007"
+                    className="hover:text-[#6DB9EF] border-b border-b-[#6DB9EF]"
+                  >
+                    +880 01783970327
+                  </a>
+                </p>
+              </CardBody>
+            </Card>
           </div>
           <div className="md:flex-1 w-full">
             <form
